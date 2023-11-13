@@ -1,6 +1,6 @@
 
-M = int(input("Entrez le premier nombre : "))
-N = int(input("Entrez le deuxième nombre : "))
+M = int(input("Enter the first number: "))
+N = int(input("Enter the second number: "))
 
 s_div_M = 0
 for i in range(2, M):
@@ -13,6 +13,6 @@ for i in range(2, N):
         s_div_N += i
 
 if s_div_M == N and s_div_N == M:
-    print(M, "et",N,"sont des nombres amis")
+    print(M, "and", N, "are amicable numbers.")
 else:
-    print(M, "et",N,"ne sontpas  des nombres amis  ")
+    print(M, "and", N, "are not amicable numbers.")
